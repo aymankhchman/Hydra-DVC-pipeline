@@ -1,0 +1,9 @@
+logging:
+  format: "[%(levelname)s]-%(lineno)s: %(message)s]"
+  level: INFO
+  name: Mr.Logger
+  streamHandler: ext://sys.stdout
+
+
+project:
+  path: '/Users/aymankhechman/Desktop/ml_expert/ML Pipeline'

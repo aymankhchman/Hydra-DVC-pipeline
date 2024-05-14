@@ -1,0 +1,6 @@
+[hydra]
+    enabled = True
+[core]
+    remote = local-remote
+['remote "local-remote"']
+    url = /tmp/dvcstore

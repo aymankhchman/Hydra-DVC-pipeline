@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  download_dataset:
+    cmd: python stages/download_data.py
+    deps:
+    - path: config/config.yaml
+      hash: md5
+      md5: da9e8b714b8598ed8a593c43dd34121e
+      size: 64
+    - path: config/dataset/dataset_2024.yaml
+      hash: md5
+      md5: 8df7b81c4e509c2221f6d328ce9764d8
+      size: 163
+    outs:
+    - path: dataset/2024/yellow_tripdata_2024_new_t.parquet
+      hash: md5
+      md5: 10dff36f5a2fc325274438bf361c70f0
+      size: 49961641

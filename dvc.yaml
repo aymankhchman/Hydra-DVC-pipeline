@@ -1,0 +1,8 @@
+stages:
+  download_dataset: 
+    cmd: python stages/download_data.py
+    deps:
+      - config/dataset/dataset_2024.yaml
+      - config/config.yaml
+    outs:
+      - dataset/2024/yellow_tripdata_2024_new_t.parquet
