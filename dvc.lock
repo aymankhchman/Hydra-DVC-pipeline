@@ -5,14 +5,31 @@ stages:
     deps:
     - path: config/config.yaml
       hash: md5
-      md5: da9e8b714b8598ed8a593c43dd34121e
-      size: 64
+      md5: 41bd75b355496df5c4e33a1be42af66b
+      size: 87
     - path: config/dataset/dataset_2024.yaml
       hash: md5
-      md5: b2d31c67faa7416c728aed36b2e30aa1
-      size: 163
+      md5: 9bc93a5ed144a58061fde040c6935852
+      size: 191
     outs:
     - path: dataset/2024/yellow_tripdata_2024_new_t.parquet
       hash: md5
       md5: 997cd7f3d14c625a28609d9c443da0f8
       size: 50349284
+  run_pipeline:
+    cmd: python stages/main.py
+    deps:
+    - path: config/modelling
+      hash: md5
+      md5: 6c87c5cc53d877fbd45517996fd24f12.dir
+      size: 1184
+      nfiles: 9
+    - path: stages/pipeline.py
+      hash: md5
+      md5: b9999e5c1484537c701ef119290a6905
+      size: 839
+    outs:
+    - path: pipelines/pipeline_v1.pkl
+      hash: md5
+      md5: fa5799d5be162dd4347b21be86473819
+      size: 416154

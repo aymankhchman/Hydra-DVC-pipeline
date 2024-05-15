@@ -1,6 +1,7 @@
 defaults:
   - dataset: dataset_2024
   - base: base
+  - modelling/model_v1
   - _self_
 
 

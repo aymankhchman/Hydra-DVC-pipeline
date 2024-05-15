@@ -1,0 +1,13 @@
+defaults:
+  - feature-selection:
+    - DropFeatures
+  - feature-engineering:
+    - DatetimeSubtraction
+  - imputer:
+    - CategoricalImputer
+    - MeanMedianImputer
+  - encoding:
+    - DatetimeFeatures
+    - OneHotEncoder
+  - models:
+    - HistGradientBoostingRegressor

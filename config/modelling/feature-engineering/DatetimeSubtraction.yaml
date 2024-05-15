@@ -1,0 +1,6 @@
+DatetimeSubtraction:
+  _target_: feature_engine.datetime.DatetimeSubtraction
+  variables: 
+   - 'tpep_pickup_datetime'
+  reference: 
+   - 'tpep_dropoff_datetime'
