@@ -1,0 +1,7 @@
+CategoricalImputer:
+  _target_: feature_engine.imputation.CategoricalImputer
+  imputation_method: 'missing'
+  fill_value: 'Missing'
+  variables: null
+  return_object: False
+  ignore_format: False

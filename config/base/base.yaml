@@ -7,3 +7,6 @@ logging:
 
 project:
   path: '/Users/aymankhechman/Desktop/ml_expert/ML Pipeline'
+  pipeline_folder: ${base.project.path}/pipelines
+  pipeline_name: pipeline_v1.pkl
+

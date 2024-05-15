@@ -1,0 +1,2 @@
+OneHotEncoder:
+  _target_: feature_engine.encoding.OneHotEncoder

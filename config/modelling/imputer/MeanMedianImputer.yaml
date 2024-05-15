@@ -1,0 +1,4 @@
+MeanMedianImputer:
+  _target_: feature_engine.imputation.MeanMedianImputer
+  imputation_method: median
+  variables: null

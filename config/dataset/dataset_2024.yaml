@@ -1,3 +1,4 @@
 url_path: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-02.parquet
 output_name: yellow_tripdata_2024_new_t.parquet
 output_save: dataset/2024
+target_variable: tip_amount

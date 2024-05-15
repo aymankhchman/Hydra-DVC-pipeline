@@ -1,0 +1,4 @@
+DropFeatures:
+  _target_: feature_engine.selection.DropFeatures
+  features_to_drop: 
+   - total_amount
