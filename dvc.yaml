@@ -6,11 +6,10 @@ stages:
       - config/config.yaml
     outs:
       - dataset/2024/yellow_tripdata_2024_new_t.parquet
-
   run_pipeline:
     cmd: python stages/main.py
     deps:
       - config/modelling
       - stages/pipeline.py
     outs:
-      - pipelines/pipeline_v1.pkl
+      - pipelines/pipeline_v2_rf.pkl

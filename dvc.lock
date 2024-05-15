@@ -5,7 +5,7 @@ stages:
     deps:
     - path: config/config.yaml
       hash: md5
-      md5: 41bd75b355496df5c4e33a1be42af66b
+      md5: a32297e22cd65ea96af5ce4dff564112
       size: 87
     - path: config/dataset/dataset_2024.yaml
       hash: md5
@@ -21,15 +21,15 @@ stages:
     deps:
     - path: config/modelling
       hash: md5
-      md5: 6c87c5cc53d877fbd45517996fd24f12.dir
-      size: 1184
-      nfiles: 9
+      md5: 53852b9097dfa47af3bb664f089338b4.dir
+      size: 1473
+      nfiles: 10
     - path: stages/pipeline.py
       hash: md5
       md5: b9999e5c1484537c701ef119290a6905
       size: 839
     outs:
-    - path: pipelines/pipeline_v1.pkl
+    - path: pipelines/pipeline_v2_rf.pkl
       hash: md5
-      md5: fa5799d5be162dd4347b21be86473819
-      size: 416154
+      md5: a66afaf6f0a47c7b2a7f03532886c549
+      size: 144023
