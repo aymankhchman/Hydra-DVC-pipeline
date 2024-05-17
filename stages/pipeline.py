@@ -7,7 +7,6 @@ sys.path.append(os.path.abspath('.'))
 sys.path.append(os.path.abspath('..'))
 
 
-# @hydra.main(config_path="../config", config_name="config")
 def create_pipeline(config: DictConfig) -> Pipeline:
 
     steps = []
